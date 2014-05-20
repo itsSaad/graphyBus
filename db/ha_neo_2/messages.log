@@ -1,0 +1,823 @@
+2014-05-20 07:43:37.428+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-05-20 07:43:37.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=806M
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=223M
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.pull_interval=500ms
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.discovery.enabled=false
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=987M
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=685M
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=777M
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.initial_hosts=localhost:5001,localhost:5002,localhost:5003
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.cluster_server=localhost:5002
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server_id=2
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server=localhost:6002
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_ha=true
+2014-05-20 07:43:37.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2014-05-20 07:43:37.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-05-20 07:43:37.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-05-20 07:43:37.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-05-20 07:43:37.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: HighAvailabilityDiagnostics
+2014-05-20 07:43:37.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-05-20 07:43:37.437+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2014-05-20 07:43:37.438+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 344.02 MB
+2014-05-20 07:43:37.438+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 3.09 GB
+2014-05-20 07:43:37.438+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 1.00 GB
+2014-05-20 07:43:37.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.00 GB
+2014-05-20 07:43:37.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-05-20 07:43:37.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 58.42 MB
+2014-05-20 07:43:37.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 222.00 MB
+2014-05-20 07:43:37.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 444.50 MB
+2014-05-20 07:43:37.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2014-05-20 07:43:37.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2014-05-20 07:43:37.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.56 MB, used=3.44 MB, max=48.00 MB, threshold=0.00 B
+2014-05-20 07:43:37.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=132.00 MB, used=123.17 MB, max=143.00 MB, threshold=?
+2014-05-20 07:43:37.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=4.99 MB, max=5.00 MB, threshold=?
+2014-05-20 07:43:37.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=85.00 MB, used=35.42 MB, max=333.00 MB, threshold=0.00 B
+2014-05-20 07:43:37.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=38.50 MB, used=38.26 MB, max=82.00 MB, threshold=0.00 B
+2014-05-20 07:43:37.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-05-20 07:43:37.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.2; arch: x86_64; cpus: 4
+2014-05-20 07:43:37.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2014-05-20 07:43:37.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 62
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 5849@Saads-Mac-Pro.local
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Asia/Karachi
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2014-05-20 07:43:37.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2014-05-20 07:43:37.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Djdk.home=, -Djruby.home=/Users/SMD/.rbenv/versions/jruby-1.7.9, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni/Darwin, -Xmx500m, -Xss2048k, -Xbootclasspath/a:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2014-05-20 07:43:37.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/kryptcore.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/bouncy-castle-java-1.5.0147/lib/bcprov-jdk15on-147.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jruby.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/Users/SMD/Developer/neo4j/neoRails3/
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/QTJava.zip
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/readline/jline-2.11.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar
+2014-05-20 07:43:37.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/bouncy-castle-java-1.5.0147/lib/bcpkix-jdk15on-147.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/readline/readline.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/kryptproviderjdk.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SMD/Library/Java/Extensions
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-05-20 07:43:37.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SMD/Developer/neo4j/neoRails3
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /Users/SMD/.rbenv/versions/jruby-1.7.9
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/SMD/Developer/neo4j/neoRails3
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: jdk.home = 
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: jffi.boot.library.path = /Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni/Darwin
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/SMD
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Asia/Karachi
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.script = jruby
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = SMD
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.shell = /bin/sh
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org/jruby/Main script/rails c
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-05-20 07:43:37.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface utun0:
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fd2f:dcd4:d944:4ae7:4e:1f7c:f3e6:6d0c
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:4e:1f7c:f3e6:6d0c%5
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:76d4:35ff:fe82:d00c%4
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.15.20
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%1
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-05-20 07:43:37.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-05-20 07:43:37.564+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore
+2014-05-20 07:43:37.578+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db] brickCount=0 brickSize=2338317b mappedMem=233832448b (storeSize=0b)
+2014-05-20 07:43:37.581+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.597+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:43:37.600+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.600+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.601+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.602+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:43:37.602+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.602+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings] brickCount=0 brickSize=718208b mappedMem=718274560b (storeSize=128b)
+2014-05-20 07:43:37.603+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:43:37.604+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.605+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays] brickCount=0 brickSize=814720b mappedMem=814743552b (storeSize=128b)
+2014-05-20 07:43:37.643+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db] brickCount=0 brickSize=8451494b mappedMem=845152256b (storeSize=0b)
+2014-05-20 07:43:37.648+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db] brickCount=0 brickSize=10349427b mappedMem=1034944512b (storeSize=0b)
+2014-05-20 07:43:37.648+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db] brickCount=0 brickSize=233829b mappedMem=233832448b (storeSize=9b)
+2014-05-20 07:43:37.649+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.652+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.653+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.659+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.660+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.660+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.662+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.663+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.663+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.664+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:43:37.665+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore hit=0 miss=8 switches=0 ooe=0
+2014-05-20 07:43:37.669+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:43:37.669+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.670+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings] brickCount=0 brickSize=718208b mappedMem=718274560b (storeSize=128b)
+2014-05-20 07:43:37.670+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:43:37.670+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:43:37.671+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays] brickCount=0 brickSize=814720b mappedMem=814743552b (storeSize=128b)
+2014-05-20 07:43:37.671+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db] brickCount=0 brickSize=8451494b mappedMem=845152256b (storeSize=0b)
+2014-05-20 07:43:37.671+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db] brickCount=0 brickSize=10349427b mappedMem=1034944512b (storeSize=0b)
+2014-05-20 07:43:37.672+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db] brickCount=0 brickSize=233829b mappedMem=233832448b (storeSize=9b)
+2014-05-20 07:43:37.672+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2014-05-20 07:43:37.685+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-05-20 07:43:37.688+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-05-20 07:43:37.714+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2014-05-20 07:43:37.717+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor started. 
+2014-05-20 07:43:37.782+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://127.0.0.1:5002
+2014-05-20 07:43:37.786+0000 INFO  [o.n.c.c.ClusterJoin]: Attempting to join cluster of [127.0.0.1:5001, 127.0.0.1:5002, 127.0.0.1:5003]
+2014-05-20 07:43:37.811+0000 INFO  [o.n.c.c.NetworkSender]: cluster://127.0.0.1:5002 opened a new channel to /127.0.0.1:5002
+2014-05-20 07:43:37.811+0000 INFO  [o.n.c.c.NetworkSender]: cluster://127.0.0.1:5002 opened a new channel to /127.0.0.1:5003
+2014-05-20 07:43:37.815+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf0198656] had no URI associated with it.
+2014-05-20 07:43:37.820+0000 WARN  [o.n.c.c.NetworkSender]: Could not connect to:cluster://127.0.0.1:5001
+org.neo4j.cluster.com.ChannelOpenFailedException: Client could not connect to /127.0.0.1:5001
+	at org.neo4j.cluster.com.NetworkSender.openChannel(NetworkSender.java:373) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender.access$200(NetworkSender.java:72) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender$2.run(NetworkSender.java:248) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.836+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://127.0.0.1:5002
+2014-05-20 07:43:37.837+0000 INFO  [o.n.c.p.c.ClusterState]: Joining cluster neo4j.ha
+2014-05-20 07:43:37.838+0000 INFO  [o.n.c.p.c.ClusterState]: 2 joining:Name:neo4j.ha Nodes:{3=cluster://127.0.0.1:5003} Roles:{coordinator=3}, last delivered:53
+2014-05-20 07:43:37.850+0000 INFO  [o.n.c.c.ClusterJoin]: Joined cluster:Name:neo4j.ha Nodes:{2=cluster://127.0.0.1:5002, 3=cluster://127.0.0.1:5003} Roles:{coordinator=3}
+2014-05-20 07:43:37.853+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 (this server) joined the cluster
+2014-05-20 07:43:37.857+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2014-05-20 07:43:37.874+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 was elected as coordinator
+2014-05-20 07:43:37.887+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as master at ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.887+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as backup at backup://127.0.0.1:6362
+2014-05-20 07:43:37.892+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.893+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 3, Role URI: ha://127.0.0.1:6003?serverId=3, Cluster URI: cluster://127.0.0.1:5003]]
+2014-05-20 07:43:37.894+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as master at ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.908+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:43:37.912+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:43:37.923+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:43:37.928+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.932+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:43:37.932+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.932+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:43:37.935+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:43:37.936+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:43:37.938+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.941+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:43:37.941+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.942+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:43:37.943+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:43:37.944+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:43:37.946+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.948+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:43:37.948+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.948+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:43:37.949+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:43:37.950+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:43:37.952+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.955+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:43:37.955+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:43:37.955+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:43:37.956+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:43:37.957+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:43:37.959+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:43:37.960+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:43:37.967+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 3, Role URI: ha://127.0.0.1:6003?serverId=3, Cluster URI: cluster://127.0.0.1:5003], MemberIsAvailable[ Role: backup, InstanceId: 3, Role URI: backup://127.0.0.1:6362, Cluster URI: cluster://127.0.0.1:5003]]
+2014-05-20 07:43:37.967+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as backup at backup://127.0.0.1:6362
+2014-05-20 07:44:12.255+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Shutdown started
+2014-05-20 07:44:12.256+0000 INFO  [o.n.c.p.c.ClusterState]: Leaving:[cluster://127.0.0.1:5002, cluster://127.0.0.1:5003]
+2014-05-20 07:44:12.263+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 (this server) left the cluster
+2014-05-20 07:44:12.269+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor stopped. 
+2014-05-20 07:44:12.271+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/index/lucene.log
+2014-05-20 07:44:12.272+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-05-20 07:44:12.273+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/nioneo_logical.log
+2014-05-20 07:44:12.273+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.273+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.274+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.274+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.274+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.275+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.275+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.275+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore hit=0 miss=43 switches=0 ooe=0
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-05-20 07:44:12.276+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2014-05-20 07:44:25.069+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-05-20 07:44:25.072+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=806M
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=223M
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.pull_interval=500ms
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.discovery.enabled=false
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=987M
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=685M
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=777M
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.initial_hosts=localhost:5001,localhost:5002,localhost:5003
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.cluster_server=localhost:5002
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server_id=2
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server=localhost:6002
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_ha=true
+2014-05-20 07:44:25.074+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: HighAvailabilityDiagnostics
+2014-05-20 07:44:25.076+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-05-20 07:44:25.078+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2014-05-20 07:44:25.078+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 330.89 MB
+2014-05-20 07:44:25.078+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 3.08 GB
+2014-05-20 07:44:25.079+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 1.00 GB
+2014-05-20 07:44:25.079+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.00 GB
+2014-05-20 07:44:25.079+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-05-20 07:44:25.080+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 122.98 MB
+2014-05-20 07:44:25.080+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 228.50 MB
+2014-05-20 07:44:25.080+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 444.50 MB
+2014-05-20 07:44:25.081+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2014-05-20 07:44:25.081+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2014-05-20 07:44:25.082+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.56 MB, used=3.36 MB, max=48.00 MB, threshold=0.00 B
+2014-05-20 07:44:25.082+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=129.50 MB, used=57.90 MB, max=131.50 MB, threshold=?
+2014-05-20 07:44:25.083+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=14.00 MB, used=13.97 MB, max=14.00 MB, threshold=?
+2014-05-20 07:44:25.083+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=85.00 MB, used=33.65 MB, max=333.00 MB, threshold=0.00 B
+2014-05-20 07:44:25.083+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=38.50 MB, used=38.29 MB, max=82.00 MB, threshold=0.00 B
+2014-05-20 07:44:25.083+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-05-20 07:44:25.084+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.2; arch: x86_64; cpus: 4
+2014-05-20 07:44:25.084+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2014-05-20 07:44:25.084+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 63
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 5909@Saads-Mac-Pro.local
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Asia/Karachi
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2014-05-20 07:44:25.085+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2014-05-20 07:44:25.086+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Djdk.home=, -Djruby.home=/Users/SMD/.rbenv/versions/jruby-1.7.9, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni/Darwin, -Xmx500m, -Xss2048k, -Xbootclasspath/a:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jruby.jar, -Dfile.encoding=UTF-8]
+2014-05-20 07:44:25.086+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/kryptcore.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/bouncy-castle-java-1.5.0147/lib/bcprov-jdk15on-147.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jruby.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2014-05-20 07:44:25.087+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/Users/SMD/Developer/neo4j/neoRails3/
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/QTJava.zip
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/readline/jline-2.11.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/bouncy-castle-java-1.5.0147/lib/bcpkix-jdk15on-147.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/readline/readline.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/shared/kryptproviderjdk.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2014-05-20 07:44:25.088+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/ruby/gems/shared/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SMD/Library/Java/Extensions
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SMD/Developer/neo4j/neoRails3
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /Users/SMD/.rbenv/versions/jruby-1.7.9
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/SMD/Developer/neo4j/neoRails3
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: jdk.home = 
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: jffi.boot.library.path = /Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni:/Users/SMD/.rbenv/versions/jruby-1.7.9/lib/jni/Darwin
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/SMD
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Asia/Karachi
+2014-05-20 07:44:25.089+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.script = jruby
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = SMD
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.shell = /bin/sh
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org/jruby/Main script/rails c
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-05-20 07:44:25.090+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-05-20 07:44:25.091+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface utun0:
+2014-05-20 07:44:25.091+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fd2f:dcd4:d944:4ae7:4e:1f7c:f3e6:6d0c
+2014-05-20 07:44:25.091+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:4e:1f7c:f3e6:6d0c%5
+2014-05-20 07:44:25.091+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2014-05-20 07:44:25.091+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:76d4:35ff:fe82:d00c%4
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.15.20
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%1
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-05-20 07:44:25.092+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-05-20 07:44:25.217+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:44:25.219+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:44:25.220+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings] brickCount=0 brickSize=718208b mappedMem=718274560b (storeSize=128b)
+2014-05-20 07:44:25.220+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-05-20 07:44:25.221+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-05-20 07:44:25.222+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays] brickCount=0 brickSize=814720b mappedMem=814743552b (storeSize=128b)
+2014-05-20 07:44:25.224+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db] brickCount=0 brickSize=8451494b mappedMem=845152256b (storeSize=0b)
+2014-05-20 07:44:25.226+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db] brickCount=0 brickSize=10349427b mappedMem=1034944512b (storeSize=0b)
+2014-05-20 07:44:25.227+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db] brickCount=0 brickSize=233829b mappedMem=233832448b (storeSize=9b)
+2014-05-20 07:44:25.227+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2014-05-20 07:44:25.243+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/nioneo_logical.log.1] version=1, lastTxId=1 (clean)
+2014-05-20 07:44:25.246+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/tm_tx_log.1
+2014-05-20 07:44:25.269+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/index/lucene.log.1] version=1, lastTxId=1 (clean)
+2014-05-20 07:44:25.272+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor started. 
+2014-05-20 07:44:25.336+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://127.0.0.1:5002
+2014-05-20 07:44:25.340+0000 INFO  [o.n.c.c.ClusterJoin]: Attempting to join cluster of [127.0.0.1:5001, 127.0.0.1:5002, 127.0.0.1:5003]
+2014-05-20 07:44:25.361+0000 INFO  [o.n.c.c.NetworkSender]: cluster://127.0.0.1:5002 opened a new channel to /127.0.0.1:5003
+2014-05-20 07:44:25.362+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb1174665] had no URI associated with it.
+2014-05-20 07:44:25.363+0000 INFO  [o.n.c.c.NetworkSender]: cluster://127.0.0.1:5002 opened a new channel to /127.0.0.1:5002
+2014-05-20 07:44:25.372+0000 WARN  [o.n.c.c.NetworkSender]: Could not connect to:cluster://127.0.0.1:5001
+org.neo4j.cluster.com.ChannelOpenFailedException: Client could not connect to /127.0.0.1:5001
+	at org.neo4j.cluster.com.NetworkSender.openChannel(NetworkSender.java:373) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender.access$200(NetworkSender.java:72) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender$2.run(NetworkSender.java:248) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.387+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://127.0.0.1:5002
+2014-05-20 07:44:25.388+0000 INFO  [o.n.c.p.c.ClusterState]: Joining cluster neo4j.ha
+2014-05-20 07:44:25.389+0000 INFO  [o.n.c.p.c.ClusterState]: 2 joining:Name:neo4j.ha Nodes:{3=cluster://127.0.0.1:5003} Roles:{coordinator=3}, last delivered:58
+2014-05-20 07:44:25.401+0000 INFO  [o.n.c.c.ClusterJoin]: Joined cluster:Name:neo4j.ha Nodes:{2=cluster://127.0.0.1:5002, 3=cluster://127.0.0.1:5003} Roles:{coordinator=3}
+2014-05-20 07:44:25.405+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 (this server) joined the cluster
+2014-05-20 07:44:25.409+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2014-05-20 07:44:25.425+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 was elected as coordinator
+2014-05-20 07:44:25.435+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as master at ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.435+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as backup at backup://127.0.0.1:6362
+2014-05-20 07:44:25.440+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.446+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 3, Role URI: ha://127.0.0.1:6003?serverId=3, Cluster URI: cluster://127.0.0.1:5003]]
+2014-05-20 07:44:25.447+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as master at ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.458+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:44:25.463+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:44:25.474+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:44:25.479+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.483+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:44:25.483+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.484+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:44:25.486+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:44:25.487+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:44:25.488+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.491+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:44:25.492+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.492+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:44:25.493+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:44:25.494+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:44:25.496+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.498+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:44:25.498+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.499+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:44:25.528+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:44:25.530+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:44:25.531+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.533+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:44:25.534+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: ServerId 2, moving to slave for master ha://127.0.0.1:6003?serverId=3
+2014-05-20 07:44:25.534+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18 communication channel created towards 127.0.0.1:6003
+2014-05-20 07:44:25.536+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Checking store consistency with master
+2014-05-20 07:44:25.536+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /127.0.0.1:6003
+2014-05-20 07:44:25.538+0000 WARN  [o.n.k.h.c.HighAvailabilityModeSwitcher]: Consistency checker failed
+org.neo4j.com.IllegalProtocolVersionException: Unexpected application protocol version 6, expected 4. Header:[00001000][00000110]
+	at org.neo4j.com.DechunkingChannelBuffer.assertSameProtocolVersion(DechunkingChannelBuffer.java:141) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.readNextChunk(DechunkingChannelBuffer.java:104) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.DechunkingChannelBuffer.<init>(DechunkingChannelBuffer.java:59) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.com.Client.sendRequest(Client.java:229) ~[neo4j-com-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.com.slave.MasterClient18.getMasterIdForCommittedTx(MasterClient18.java:290) ~[neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistencyWithMaster(HighAvailabilityModeSwitcher.java:598) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.checkDataConsistency(HighAvailabilityModeSwitcher.java:418) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.switchToSlave(HighAvailabilityModeSwitcher.java:321) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.stateChanged(HighAvailabilityModeSwitcher.java:238) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityModeSwitcher.masterIsAvailable(HighAvailabilityModeSwitcher.java:196) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:181) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener$2.notify(HighAvailabilityMemberStateMachine.java:177) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners.notifyListeners(Listeners.java:64) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.ha.cluster.HighAvailabilityMemberStateMachine$StateMachineClusterEventListener.memberIsAvailable(HighAvailabilityMemberStateMachine.java:175) [neo4j-ha-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:202) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.member.paxos.PaxosClusterMemberEvents$HighAvailabilitySnapshotProvider$2.notify(PaxosClusterMemberEvents.java:196) [neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.helpers.Listeners$1.run(Listeners.java:87) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_55]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_55]
+2014-05-20 07:44:25.540+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 07:44:25.545+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 3, Role URI: ha://127.0.0.1:6003?serverId=3, Cluster URI: cluster://127.0.0.1:5003], MemberIsAvailable[ Role: backup, InstanceId: 3, Role URI: backup://127.0.0.1:6362, Cluster URI: cluster://127.0.0.1:5003]]
+2014-05-20 07:44:25.545+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as backup at backup://127.0.0.1:6362
+2014-05-20 07:46:26.926+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Shutdown started
+2014-05-20 07:46:26.927+0000 INFO  [o.n.c.p.c.ClusterState]: Leaving:[cluster://127.0.0.1:5002, cluster://127.0.0.1:5003]
+2014-05-20 07:46:26.934+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 (this server) left the cluster
+2014-05-20 07:46:26.940+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor stopped. 
+2014-05-20 07:46:26.942+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/index/lucene.log
+2014-05-20 07:46:26.942+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-05-20 07:46:26.943+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/nioneo_logical.log
+2014-05-20 07:46:26.944+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.944+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.944+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.945+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.945+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.945+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.946+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.946+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.946+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2014-05-20 07:46:26.947+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_2/neostore hit=0 miss=43 switches=0 ooe=0
+2014-05-20 07:46:26.947+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-05-20 07:46:26.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-05-20 07:46:26.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-05-20 07:46:26.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
