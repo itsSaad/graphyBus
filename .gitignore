@@ -9,6 +9,8 @@
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
+/db/ha_neo_1
+/db/ha_neo_2
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
