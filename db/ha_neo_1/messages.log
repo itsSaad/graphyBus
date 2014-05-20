@@ -1627,3 +1627,40 @@ Storage files: (filename : modification date - size)
 2014-05-20 07:49:22.427+0000 INFO  [o.n.k.h.i.HaIdGeneratorFactory]: Received id allocation IdAllocation[IdRange[1001-2000, defrag []], 2001, 0] from master MasterClient18[/127.0.0.1:6003] for PROPERTY
 2014-05-20 07:49:22.431+0000 INFO  [o.n.k.h.i.HaIdGeneratorFactory]: Received id allocation IdAllocation[IdRange[1001-2000, defrag []], 2001, 0] from master MasterClient18[/127.0.0.1:6003] for PROPERTY_INDEX
 2014-05-20 07:49:22.433+0000 INFO  [o.n.k.h.i.HaIdGeneratorFactory]: Received id allocation IdAllocation[IdRange[1001-2000, defrag []], 2001, 0] from master MasterClient18[/127.0.0.1:6003] for PROPERTY_INDEX_BLOCK
+2014-05-20 09:24:31.670+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Shutdown started
+2014-05-20 09:24:31.670+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is no longer ready
+2014-05-20 09:24:31.670+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Write transactions to database disabled
+2014-05-20 09:24:31.677+0000 INFO  [o.n.k.h.c.s.MasterClient18]: MasterClient18[/127.0.0.1:6003] shutdown
+2014-05-20 09:24:31.680+0000 INFO  [o.n.c.p.c.ClusterState]: Leaving:[cluster://127.0.0.1:5001, cluster://127.0.0.1:5003]
+2014-05-20 09:24:31.688+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) is unavailable as slave
+2014-05-20 09:24:31.689+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) left the cluster
+2014-05-20 09:24:31.700+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor stopped. 
+2014-05-20 09:24:31.701+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/index/lucene.log
+2014-05-20 09:24:31.702+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-05-20 09:24:31.709+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/nioneo_logical.log
+2014-05-20 09:24:31.709+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.relationshiptypestore.db.names hit=0 miss=7 switches=0 ooe=0
+2014-05-20 09:24:31.710+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.relationshiptypestore.db hit=0 miss=4 switches=0 ooe=0
+2014-05-20 09:24:31.711+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-05-20 09:24:31.711+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.propertystore.db.index.keys hit=0 miss=16 switches=0 ooe=0
+2014-05-20 09:24:31.712+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.propertystore.db.index hit=0 miss=1003 switches=0 ooe=0
+2014-05-20 09:24:31.713+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-05-20 09:24:31.713+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.propertystore.db hit=8 miss=0 switches=0 ooe=0
+2014-05-20 09:24:31.714+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.relationshipstore.db hit=10 miss=0 switches=0 ooe=0
+2014-05-20 09:24:31.715+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore.nodestore.db hit=8 miss=7 switches=0 ooe=0
+2014-05-20 09:24:31.715+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SMD/Developer/neo4j/neoRails3/db/ha_neo_1/neostore hit=0 miss=34 switches=0 ooe=0
+2014-05-20 09:24:31.716+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-05-20 09:24:31.716+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-05-20 09:24:31.716+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-05-20 09:24:31.716+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
