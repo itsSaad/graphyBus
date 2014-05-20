@@ -50,4 +50,3 @@ gem 'neo4j-enterprise', '~> 1.9.5'
 
 #Debugging and Error Display
 gem 'better_errors', :group => :development
-gem "binding_of_caller"
