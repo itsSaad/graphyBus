@@ -39,9 +39,15 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem "rspec-rails"
+  gem 'pry-rails'
 end
 
 gem "neo4j", ">= 2.2.3"
 gem 'neo4j-advanced', '~> 1.9.5'
 gem 'neo4j-community', '~> 1.9.5'
 gem 'neo4j-enterprise', '~> 1.9.5'
+
+
+#Debugging and Error Display
+gem 'better_errors', :group => :development
+gem "binding_of_caller"
