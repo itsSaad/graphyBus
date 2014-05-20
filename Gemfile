@@ -50,3 +50,8 @@ gem 'neo4j-enterprise', '~> 1.9.5'
 
 #Debugging and Error Display
 gem 'better_errors', :group => :development
+#Haml
+gem 'haml'
+
+#Boosstrap
+gem 'bootstrap-sass-rails'

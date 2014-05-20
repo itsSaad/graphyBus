@@ -1,4 +1,6 @@
 NeoRails3::Application.routes.draw do
+
+  resources :busstops
   resources :things
 
 

@@ -1,0 +1,37 @@
+%h3 List of all bus stops in Lahore
+%br
+= link_to 'Add new bus stop', new_busstop_path, :class => "btn btn-primary"
+%br
+- if @busstop.blank?
+	%p No bus stop currently exist.
+-else
+	%br
+	%table.table.table-hover.table-condensed.text-center
+		%tr
+			%th.text-center
+				Bus Stop Name
+			%th.text-center
+				Bus Stop LatLong
+			%th.text-center
+				Options
+		- @busstop.each do |c|
+			%tr
+				%td
+					= c.bus_stop_name
+				%td
+					= c.bus_stop_lat_long
+				%td
+					= link_to busstop_path(c.id) do
+						= content_tag :button, :class => "btn btn-primary" do
+							= content_tag :span, class: "glyphicon glyphicon-list" do
+								=""
+					|
+					= link_to edit_busstop_path(c.id) do
+						= content_tag :button, :class => "btn btn-warning" do	
+							= content_tag :span, class: "glyphicon glyphicon-pencil" do
+								=""
+					|
+					= link_to busstop_path(c.id), method: :delete, data: { :confirm => 'Are you sure?' } do
+						= content_tag :button, :class => "btn btn-danger" do
+							= content_tag :span, class: "glyphicon glyphicon-remove" do
+								=""

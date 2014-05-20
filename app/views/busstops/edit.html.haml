@@ -1,0 +1,36 @@
+-if @busstop.blank?
+	="No Bus Stop Found"
+-else
+	%h1
+		Edit Bus Stop: 
+		%span.label.label-info
+			="#{@busstop.bus_stop_name}"
+	-@busstop.errors.full_messages
+	%br
+	=form_for :busstop, url:{action: "update"}, method: :put, html:{class: "form-horizontal"} do |f|
+		%div.form-group
+			=f.label :bus_stop_name, "Bus Stop Name" ,{:class => 'col-lg-2 control-label'}
+			%span.error-message
+				- if not (@busstop.errors[:bus_stop_name].blank?)
+					=@busstop.errors[:bus_stop_name].to_s
+			%div.col-lg-3
+				=f.text_field :bus_stop_name, {:class => 'form-control', :value => @busstop.bus_stop_name}
+		%div.form-group
+			=f.label :bus_stop_lat_long, "Bus Stop LatLong" ,{:class => 'col-lg-2 control-label'}
+			%span.error-message
+				- if not (@busstop.errors[:bus_stop_lat_long].blank?)
+					=@busstop.errors[:bus_stop_lat_long].to_s
+			%div.col-lg-3
+				=f.text_field :bus_stop_lat_long, {:class => 'form-control', :value => @busstop.bus_stop_lat_long}
+		%div.form-group
+			=f.label :bus_stop_sec_name, "Bus Stop Secondary Name" ,{:class => 'col-lg-2 control-label'}
+			%span.error-message
+				- if not (@busstop.errors[:bus_stop_sec_name].blank?)
+					=@busstop.errors[:bus_stop_sec_name].to_s
+			%div.col-lg-3
+				=f.text_field :bus_stop_sec_name, {:class => 'form-control', :value => @busstop.bus_stop_sec_name}
+		%div.form-group
+			%div.col-lg-offset-2.col-lg-10
+				=f.submit :class => 'btn btn-primary'
+
+	

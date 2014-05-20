@@ -1,0 +1,26 @@
+%h3 Bus-Stop details
+%br
+=link_to 'Show All Bus Stop', busstops_path, :class => "btn btn-primary" 
+%br
+- if @busstop.blank?
+	%p There is no bus stop currently exist
+-else
+	%br
+	%table.table.table-hover.table-condensed.text-center
+		%tr
+			%th.text-center
+				Bus Stop Name
+			%th.text-center
+				Bus Stop LatLong
+			%th.text-center
+				Options
+		%tr
+			%td
+				=@busstop.bus_stop_name
+			%td
+				=@busstop.bus_stop_lat_long
+			%td
+				= link_to busstop_path, method: :delete, data: { :confirm => 'Are you sure?' } do
+					= content_tag :button, :class => "btn btn-danger" do
+						= content_tag :span, class: "glyphicon glyphicon-remove" do
+							=""
