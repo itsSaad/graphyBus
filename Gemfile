@@ -40,6 +40,7 @@ gem 'jquery-rails'
 group :development, :test do
   gem "rspec-rails"
   gem 'pry-rails'
+  gem 'better_errors'
 end
 
 gem "neo4j", ">= 2.2.3"
@@ -49,4 +50,4 @@ gem 'neo4j-enterprise', '~> 1.9.5'
 
 
 #Debugging and Error Display
-gem 'better_errors', :group => :development
+
